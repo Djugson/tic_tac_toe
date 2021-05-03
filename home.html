@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tic Tac Toe</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="home.css">
+    </head>
+    <body>
+        <div class="box">
+            <div class="player_one">
+                <h1>Player One</h1>
+                <div class="player_color" id="first_player">
+                </div>
+            </div>
+            <div class="game">
+                <div class="first_column">
+                    <div class="block" id="one" value="0" onclick="assignMove(this.id)"></div>
+                    <div class="block" id="two" value="0" onclick="assignMove(this.id)"></div>
+                    <div class="block" id="three" value="0" onclick="assignMove(this.id)"></div>  
+                </div>
+                <div class="second_column">
+                    <div class="block" id="four" value="0" onclick="assignMove(this.id)"></div>
+                    <div class="block" id="five" value="0" onclick="assignMove(this.id)"></div>
+                    <div class="block" id="six" value="0" onclick="assignMove(this.id)"></div>  
+                </div> 
+                <div class="third_column">
+                    <div class="block" id="seven" value="0" onclick="assignMove(this.id)"></div>
+                    <div class="block" id="eight" value="0" onclick="assignMove(this.id)"></div>
+                    <div class="block" id="nine" value="0" onclick="assignMove(this.id)"></div>  
+                </div>
+            </div>
+            <div class="player_two">
+                <h1>Player Two</h1>
+                <div class="player_color" id="second_player">
+                </div>
+            </div>
+        </div>
+        <button class="new_game" onclick="newGame()">new game</button>
+        <script src="home.js" async defer></script>
+    </body>
+</html>

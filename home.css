@@ -1,0 +1,78 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.box {
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.game {
+	margin: 0px;
+	padding: 10px;
+	background-color: black;
+	border-radius: 16px;
+}
+
+.player_one {
+	margin: 20px 30px;
+	padding: 10px;
+	background-color: white;
+}
+
+.player_two {
+	margin: 20px 30px;
+	padding: 10px;
+	background-color: white;
+}
+
+.player_color {
+	height: 60px;
+	width: 60px;
+	margin: 30px auto;
+	border-radius: 16px;
+}
+
+#first_player {
+	background-color: red;
+}
+
+#second_player {
+	background-color: blue;
+}
+
+.first_column{
+	display: flex;
+}
+
+.second_column {
+	display: flex;
+}
+
+.third_column {
+	display: flex;
+}
+
+.block {
+	background-color: whitesmoke;
+	color: black;
+	margin: 10px;
+	padding: 5px;
+	height: 80px;
+	width: 80px;
+	border-radius: 16px;
+}
+
+.new_game {
+	height: 50px;
+	width: 150px;
+	font-size: 20px;
+	padding: 10px;
+	text-align: center;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
